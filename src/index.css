@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.95;
+}
